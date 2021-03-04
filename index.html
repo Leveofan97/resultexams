@@ -50,7 +50,7 @@
                             result[0].forEach((r) => {
                                 let Txt1 = "";
                                 Txt1 = document.Test.bt.value;
-                                $('.container').append("<div style='display: flex; padding: 10px; justify-content: space-between; '><img src='http://www.surgu.ru/assets/front/logo-ce9a2f65225f534c436fd68e635d5d93.png'><div><h6 style='padding: 10px; text-align: center'>Бюджетное учреждение высшего образования Ханты-Мансийского автономного округа - Югры <br> Сургутский государственный университет</h6></div></div>")
+                                $('.container').append("<div style='display: flex; padding: 10px; justify-content: space-between; '><img src='logo.png'><div><h6 style='padding: 10px; text-align: center'>Бюджетное учреждение высшего образования Ханты-Мансийского автономного округа - Югры <br> Сургутский государственный университет</h6></div></div>")
                                 $('.container').append("<h5> Результат вступительного испытания по предмету" + " " + Txt1 + "</h5>")
                                 $('.container').append("<h6>" + r[0] + " " + r[1] + ", Баллов: " + Math.round(parseFloat(r[7].replace(",", "."))) + "</h6><p>" + r[2] + "</p>")
                                 $('.container').append("<h6> Дата и время начала:" + " " + r[4] + "</h6>")
