@@ -12,7 +12,10 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<form name="Test" style="text-align: center; margin-top: 2%">
+<form name="Test" style="text-align: center; margin-top: 2% 
+               @media print {
+                visibility: hidden;
+            }">
     <input type="text" placeholder="Название экзамена" name="bt" value="">
     <input type="button" onclick="validateForm()" value="Добавить">
 
