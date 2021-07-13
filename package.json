@@ -4,8 +4,5 @@
   "description": "This will load any static html site",
   "scripts": {
     "start": "harp server --port $PORT"
-  },
-  "dependencies": {
-    "harp": "*"
   }
 }
