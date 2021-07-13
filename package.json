@@ -4,7 +4,8 @@
   "description": "This will load any static html site",
   "license": "(ISC) MIT",
   "scripts": {
-    "start": "harp server --port $PORT"
+    "start": "NODE_ENV=production harp server -p $PORT",
+    "dev": "harp server"
   },
   "dependencies": {
     "harp": "*"
