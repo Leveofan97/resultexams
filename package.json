@@ -2,12 +2,5 @@
   "name": "ExamsResult",
   "version": "1.0.0",
   "description": "This will load any static html site",
-  "license": "(ISC) MIT",
-  "scripts": {
-    "start": "NODE_ENV=production harp server -p $PORT",
-    "dev": "harp server"
-  },
-  "dependencies": {
-    "harp": "*"
-  }
+  "license": "(ISC) MIT"
 }
