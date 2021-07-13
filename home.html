@@ -29,7 +29,7 @@
         }
     }
 </script>
-<form style="text-align: center; margin-top: 1%; margin-bottom: 3%; margin-left: 21px;">
+<form class="hidden1">
 <input style="visibility: hidden;" type="file" id="fileInput" >
 </form>
 <div class="container" style="width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;"></div>
@@ -83,9 +83,15 @@
                 text-align: center; 
                 margin-top: 2%
         }
+        .hidden1{
+                text-align: center; 
+                margin-top: 1%; 
+                margin-bottom: 3%; 
+                margin-left: 21px;
+        }
         @media print
         {    
-        .hidden
+        .hidden, hidden1
         {
                 display: none !important;
         }
