@@ -29,7 +29,7 @@
         }
     }
 </script>
-<form class="hidden1">
+<form class="hiddened">
 <input style="visibility: hidden;" type="file" id="fileInput" >
 </form>
 <div class="container" style="width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;"></div>
@@ -92,10 +92,17 @@
         @media print
         {    
         .hidden, .hidden1
-        {
+                {
                 display: none !important;
+                }
         }
-}
+        @media print
+        {    
+        .hiddened
+                {
+                display: none !important;
+                }
+        }
 </style>
 
 </html>
