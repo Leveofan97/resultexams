@@ -54,8 +54,8 @@
                                 $('.container').append("<div style='display: flex; padding: 10px; justify-content: space-between; '><img src='logo.png'><div><h6 style='padding: 10px; text-align: center'>БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ ХАНТЫ-МАНСИЙСКОГО АВТОНОМНОГО ОКРУГА - ЮГРЫ <br> «Сургутский государственный университет»</h6></div></div>")
                                 $('.container').append("<h5> Результат вступительного испытания по предмету" + " " + Txt1 + "</h5>")
                                 $('.container').append("<h6 contenteditable='true'>" + r[0] + " " + r[1] + ", Баллов: " + Math.round(parseFloat(r[7].replace(",", "."))) + "</h6><p>" + r[2] + "</p>")
-                                $('.container').append("<h6> Дата и время начала:" + " " + r[4] + "</h6>")
-                                $('.container').append("<h6> Дата и время окончания:" + " " + r[5] + "</h6>")
+                                $('.container').append("<h6 contenteditable='true'>"> Дата и время начала:" + " " + r[4] + "</h6>")
+                                $('.container').append("<h6 contenteditable='true'>"> Дата и время окончания:" + " " + r[5] + "</h6>")
 
                                 var t = "<table class='table table-striped'>";
                                 for (var i = 8; i < r.length; i++) {
